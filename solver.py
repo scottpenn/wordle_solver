@@ -100,7 +100,7 @@ def adjust_scores():
     words['letter_score'] = 0
     for letter in string.ascii_lowercase:
         if letter not in guessed_letters:
-            letter_dict[letter] = valid_words[letter].sum() / total_valid_letters * 100
+            letter_dict[letter] = valid_words[letter].sum() / total_valid_letters * 10
         else:
             letter_dict[letter] = 0   
         words['letter_score'] += words[letter].astype('bool') * letter_dict[letter]
@@ -110,7 +110,7 @@ def adjust_scores():
         for letter in string.ascii_lowercase:
             key = f'{position}{letter}'
             if key not in guessed_positions:
-                position_dict[key] = valid_words[key].sum() / total_valid_words * 20
+                position_dict[key] = valid_words[key].sum() / total_valid_words * 10
             else:
                 position_dict[key] = 0
             words['position_score'] += words[key].astype('bool') * position_dict[key]
