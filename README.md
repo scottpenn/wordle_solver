@@ -1,4 +1,5 @@
-# wordle_solver
+![splash](wordle-splash.jpg)
+
 A [Wordle](https://www.powerlanguage.co.uk/wordle/) solver made with Python, pandas, and numpy.
 
 Wordle is a game where the objective is to guess five-letter words until you find that day's solution. After each guess, you will be given feedback for each letter. 
