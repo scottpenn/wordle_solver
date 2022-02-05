@@ -1,4 +1,4 @@
-![splash](wordle-splash.jpg)
+![splash](wordle_splash.jpg)
 
 A [Wordle](https://www.powerlanguage.co.uk/wordle/) solver made with Python, pandas, and numpy.
 
