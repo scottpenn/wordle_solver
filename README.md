@@ -21,3 +21,5 @@ I have provided comments in the notebooks if you wish to read about my methods a
 ## Update 2022 Feb 12
 
 To test how easy it would be to extend my algorithm to similar games, I copied the two notebooks and adjusted the code to solve for Mastermind. Mastermind does not provide feedback for each individual position, but instead provides feedback on the whole guess. With just a few modifications, the algortihm solves for every pattern within seven guesses. 
+
+![results](results_mastermind.png)
